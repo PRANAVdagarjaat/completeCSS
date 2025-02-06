@@ -1,0 +1,32 @@
+.box{
+    padding: 5px;
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+}
+/* 
+@media screen and (width: 300.36px) {
+    .box{
+        background-color: brown;
+    }
+} */
+
+/* @media screen and (min-width: 300px ) {
+    .box{
+        background-color: brown;
+        border-radius: 15px;
+    }
+} */
+
+/* @media screen and (max-width: 300px ) {
+    .box{
+        background-color: brown;
+        border-radius: 15px;
+    }
+} */
+
+@media screen and (min-width: 300px) and (max-width: 400px) {
+    .box{
+        background-color: burlywood;
+    }    
+}
