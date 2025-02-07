@@ -1,0 +1,55 @@
+.box{
+    height: 50px;
+    width: 50px;
+    padding: 5px;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+#box1{background-color: lime;}
+#box1:hover{transform: rotate(45deg);}
+#box2{background-color: blueviolet;}
+#box2:hover{transform: rotate(180deg);}
+#box3{background-color: indianred;}
+#box3:hover{transform: rotateX(45deg);}
+#box4{background-color: violet;}
+#box4:hover{transform: rotateY(45deg);}
+
+#box5{background-color: aqua;}
+#box5:hover{transform: scale(2);}
+#box6{background-color: darkcyan;}
+#box6:hover{transform: skew(45deg);}  
+#box7{background-color: khaki;}
+#box7:hover{transform: scalex(2);}
+#box8{background-color: aquamarine;}
+#box8:hover{transform: scaley(2);}
+
+#box9{background-color: lime;}
+#box9:hover{transform: translate(50px);}
+#box10{background-color: blueviolet;}
+#box10:hover{transform: translate(50px, 50px);}
+#box11{background-color: indianred;}
+#box11:hover{transform: translatex(45px);}
+#box12{background-color: violet;}
+#box12:hover{transform: translateY(45px);}
+
+#box13{
+    position: absolute;
+    background-color: lime;
+    animation-name: GulluGullu;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 4;
+    animation-direction: alternate;
+}
+
+@keyframes GulluGullu {
+    0%{left:10px}
+    50%{left: 60px}
+    100%{left: 300px}
+}
